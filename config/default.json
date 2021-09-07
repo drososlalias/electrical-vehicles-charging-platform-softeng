@@ -1,5 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://drosos:secret@softeng.w1wfi.mongodb.net/SoftengProject?retryWrites=true&w=majority",
-    "testMongoURI": "mongodb+srv://drosos:secret@softeng.w1wfi.mongodb.net/testDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
-}
