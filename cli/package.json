@@ -1,0 +1,17 @@
+{
+  "name": "ev_group64",
+  "version": "1.0.0",
+  "description": "EV Charging Management System",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NTUA SoftEng Group 64 (Watts_n_Volts)",
+  "license": "MIT",
+  "bin": {
+    "ev_group64": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

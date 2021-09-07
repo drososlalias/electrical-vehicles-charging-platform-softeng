@@ -1,0 +1,52 @@
+{
+  "name": "ev_group64",
+  "version": "1.0.0",
+  "description": "Softeng Project ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "export NODE_ENV=test && nodemon --exec 'mocha test/**.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drososlalias/softeng_project.git"
+  },
+  "author": "drososlalias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drososlalias/softeng_project/issues"
+  },
+  "homepage": "https://github.com/drososlalias/softeng_project#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.0.0",
+    "config": "^3.3.4",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "csv-express": "^1.2.2",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "date-and-time": "^0.14.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "fast-csv": "^4.3.6",
+    "json-2-csv": "^3.10.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "openssl-nodejs": "^1.0.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "bson": "^4.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "mongodb": "^3.6.4",
+    "supertest": "^6.1.3"
+  }
+}

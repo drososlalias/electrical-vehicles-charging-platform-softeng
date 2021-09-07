@@ -1,0 +1,2 @@
+sessionId,vehiclePlates,stationInfo/stationId,stationInfo/stationOperator,stationInfo/lat,stationInfo/lng,stationInfo/pointInfo/pointId,stationInfo/pointInfo/pointOperator,stationInfo/pointInfo/sessionIndex,stationInfo/costPerKwh,stationInfo/provider/providerId,stationInfo/provider/providerName,connectionTime,disconnectionTime,sessionDate,energyDelivered,protocol,paymentMethod,totalCost,vehicleType
+8888,SSS-9999,999,Stacy Rinker,99,99,9999,Janine Griffin,999,0.99,15,Economy Energy,04:53,04:54,2011-02-18,15.4,slow,credit,82.88,phev

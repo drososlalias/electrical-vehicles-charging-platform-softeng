@@ -1,0 +1,22 @@
+# Backup files etc.
+
+*~
+\#*\#
+*.bak
+*.backup
+.*.sw[a-z]
+
+# Mac OS specific
+
+.DS_Store
+
+# Windows specific
+
+Thumbs.db*
+
+# Add anything else that should not be added to your repository.
+# Examples are:
+# - Object files and executables
+# - Large data files
+# - Files containing passwords, credentials, etc.
+# - Code dependencies

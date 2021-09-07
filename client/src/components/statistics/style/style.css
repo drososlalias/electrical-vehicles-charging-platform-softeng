@@ -1,0 +1,28 @@
+.table1 {
+    margin-top: 5rem;
+    margin-left: 20rem;
+    width: 100%;
+    display: block;
+}
+
+.table1 td {
+    width: 450px;
+    text-align: center;
+    border: 1px solid rgb(199, 108, 108);
+    padding: 8px;
+}
+
+.table1 tbody tr:nth-child(even){background-color: #033b49;}
+
+.table1 tbody tr:hover {background-color: rgb(9, 33, 61);}
+
+
+.table1 th {
+    width: 900px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2679c3;
+    color: white;
+}
+
